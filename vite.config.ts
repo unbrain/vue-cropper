@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/components/VueCropper/index.ts',
-      name: 'vueCropper'
+      name: 'vue-cropper-next'
     },
     rollupOptions: {
       external: ['vue']

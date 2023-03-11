@@ -1,8 +1,10 @@
 {
-  "name": "vue-cropper",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vue-cropper-next",
+  "private": false,
+  "version": "0.0.1-beta4",
   "type": "module",
+  "main": "dist/vue-cropper-next.js",
+  "module": "dist/vue-cropper-next.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -10,12 +12,24 @@
   },
   "dependencies": {
     "cropperjs": "^1.5.13",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "vue-cropper-next": "0.0.1-beta4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
     "vue-tsc": "^1.0.24"
-  }
+  },
+  "keywords": [
+    "vue",
+    "vue-component",
+    "cropper",
+    "image",
+    "cropperjs",
+    "vue-cropper",
+    "vue-cropperjs",
+    "v-cropper"
+  ],
+  "license": "MIT"
 }

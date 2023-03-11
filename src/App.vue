@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // import { VueCropper } from "./components/VueCropper";
-import { VueCropper } from '../dist/vue-cropper.js';
+import { VueCropper } from 'vue-cropper-next';
 import ImgUrl from './assets/005N9ag4ly1hbtu38y3dqj34tc2uy4qr.jpg';
 import 'cropperjs/dist/cropper.css';
 import { ref } from "vue";

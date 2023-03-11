@@ -6,11 +6,13 @@ specifiers:
   typescript: ^4.9.3
   vite: ^4.1.0
   vue: ^3.2.45
+  vue-cropper-next: 0.0.1-beta4
   vue-tsc: ^1.0.24
 
 dependencies:
   cropperjs: 1.5.13
   vue: 3.2.47
+  vue-cropper-next: 0.0.1-beta4
 
 devDependencies:
   '@vitejs/plugin-vue': 4.0.0_vite@4.1.4+vue@3.2.47
@@ -560,6 +562,13 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /vue-cropper-next/0.0.1-beta4:
+    resolution: {integrity: sha512-ie/aeSDXoegfNo+8wqw+nEk9RcXchTPARFhg/kaLiOVa4iAynx1a3GAny/wIHuPNXkMBIgVuJFWSQjQqXN+5jQ==}
+    dependencies:
+      cropperjs: 1.5.13
+      vue: 3.2.47
+    dev: false
 
   /vue-template-compiler/2.7.14:
     resolution: {integrity: sha512-zyA5Y3ArvVG0NacJDkkzJuPQDF8RFeRlzV2vLeSnhSpieO6LK2OVbdLPi5MPPs09Ii+gMO8nY4S3iKQxBxDmWQ==}
